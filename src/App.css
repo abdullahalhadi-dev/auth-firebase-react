@@ -1,38 +1,54 @@
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header{
+  margin-bottom: 30px;
+  color: blue;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.root-class{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 20px 0;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.google,
+.facebook,
+.github,
+.yahoo{
+  margin: 20px  0;
 }
-
-.App-link {
-  color: #61dafb;
+.google button,
+.facebook button,
+.github button,
+.yahoo button{
+  border-radius: 10px;
+  padding: 10px 50px;
+  transition: all 0.3s ease;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.google button:hover,
+.facebook button:hover,
+.github button:hover,
+.yahoo button:hover{
+  background-color: aquamarine;
+  color: blue;
+  border-color: blue;
+}
+.signout{
+  margin: 20px  0;
+  border-radius: 10px;
+  padding: 10px 50px;
+  transition: all 0.3s ease;
+}
+.signout:hover{
+  background-color: aquamarine;
+  color: blue;
+  border-color: blue;
+}
+.no-account{
+  margin-top: 50px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.no-account span{
+  color: blue;
 }
